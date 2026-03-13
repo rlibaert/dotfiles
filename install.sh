@@ -18,6 +18,7 @@ git config --global alias.meeh  "commit --amend"
 git config --global alias.stat  "diff --stat"
 git config --global alias.wdiff "diff --word-diff=color"
 git config --global alias.wshow "show --word-diff=color"
+git config --global alias.fpush "push --force-with-lease"
 
 git config --global alias.adog  "log --all --decorate --oneline --graph"
 git config --global alias.slog  "log --pretty=format:'%C(auto,yellow)%h%C(auto)%d %C(auto,reset)%s  [%C(auto,blue)%cn%C(auto,reset), %C(auto,cyan)%ar%C(auto,reset)]'"
